@@ -1,0 +1,3 @@
+carga:358ms
+pesa:18kb
+imagenes:18

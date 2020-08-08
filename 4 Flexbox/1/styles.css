@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    margin:auto;
+}
+.tamaño {
+    width: 500px;
+    height: 500px;
+}
+
+.verde {
+    display: flex;
+    background-color: rgb(23, 219, 105);
+}
+
+.negro {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+
+.amarillo {
+    display: flex;
+    background-color: rgb(255, 232, 24);
+}
+
+.gris {
+    display: flex;
+    background-color: rgb(46, 46, 46);
+
+}
+
+.vinotinto {
+    display: flex;
+    background-color: rgb(95, 11, 11);
+}
+
+.cafe {
+    display: flex;
+    background-color: rgb(107, 61, 8);
+}

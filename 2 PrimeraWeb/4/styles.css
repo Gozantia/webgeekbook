@@ -1,0 +1,53 @@
+body {
+    font-size: 18px;
+    font-family: Tahoma;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5;
+}
+
+.text-link {
+    color: rgb(129, 44, 108);;
+}
+
+.text-link:hover {
+    background-color: rgb(129, 44, 108);;
+    color: white;
+}
+
+.links {
+    color: rgb(129, 44, 108);;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.button {
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    display: inline-block;
+    margin-bottom: 1em;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.new {
+    background-color: rgb(167, 7, 127);
+}
+
+.new2 {
+    background-color: rgb(129, 44, 108);
+}
+
+.new3 {
+    background-color: rgb(70, 24, 58);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,35 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(207, 207, 207, 0.699);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#main {
+    display: inline-flex;
+    width: 96%;
+    margin: 0 1%;
+    height: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+#main ul {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    line-height:63px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+

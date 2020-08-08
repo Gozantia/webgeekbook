@@ -1,0 +1,36 @@
+body {
+    background-color: antiquewhite;
+
+}
+
+.primero {
+    display: block;
+    /* display: inline;
+    display: inline-block;
+    display: none; */
+    background-color: rgb(204, 185, 15);
+    width: 100px;
+    height: 100px;
+}
+
+.segundo {
+    display: block;
+    /* display: inline;
+    display: inline-block;
+    display: none; */
+    background-color: rgb(113, 113, 180);
+    width: 100px;
+    height: 100px;
+
+}
+
+.tercero {
+    display: block;
+    /*   display: inline;
+    display: inline-block;
+    display: none; */
+    background-color: rgb(158, 34, 107);
+    width: 100px;
+    height: 100px;
+
+}

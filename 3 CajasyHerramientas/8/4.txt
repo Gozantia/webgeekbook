@@ -1,0 +1,1 @@
+los idiomas tienen un display en absoluto y se posicionan mediante las coordenadas en cada dirección, Right, top, left y bottom

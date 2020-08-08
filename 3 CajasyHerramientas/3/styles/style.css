@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(31, 36, 36);
+    font-family: verdana;
+}
+
+p {
+    color: cornsilk;
+    font-size: medium;
+  
+}
+
+h1 {
+    text-align: center;
+    color: rgb(218, 67, 205);
+}
+
+.imagen {
+    display:inline-block ;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+
+}

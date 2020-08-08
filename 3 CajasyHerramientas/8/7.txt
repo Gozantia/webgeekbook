@@ -1,0 +1,3 @@
+medidas: 394px x 44px;
+Tiene 64px de separación con el input
+Se hace con padding y no con margin

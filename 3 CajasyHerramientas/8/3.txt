@@ -1,0 +1,2 @@
+los modulos estan compuestos
+por un div una img un hipervinculo,strong,small
