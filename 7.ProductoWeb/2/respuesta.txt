@@ -1,0 +1,1 @@
+En la imagen que tiene <img> es absoluta y en la hoja de stilos es relativa. Esto debido que la hoja de estilos se encuentra dentro de la carpeta styles

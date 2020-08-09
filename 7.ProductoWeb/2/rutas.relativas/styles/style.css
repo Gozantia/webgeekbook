@@ -1,0 +1,9 @@
+.imagen {
+    background-image: url(../images/imagen-de-prueba.jpg);
+    width: 300px;
+    height: 299px;
+}
+
+img {
+    width: 200px;
+}
