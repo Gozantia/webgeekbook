@@ -1,0 +1,1 @@
+Cuando el tamaño de la pantalla es inferior al número de pixeles

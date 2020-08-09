@@ -1,35 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Ejercicio 7</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Flex</title>
 </head>
-
-<body>
-    <div class="container">
-        <div class="header">HEADER</div>
-        <div class="aside1">Foto</div>
-        <div class="main">
-            <div>
-            <h2>Centro de fisioterapia Guzman</h2>
-            <p>Fisioterapia General</p>
-            <div><button>Reservar cita</button>
-            <button>Pedir Presupuesto</button></div>
-        </div>
-        </div>
-        <div class="botones"></div>
-        <div class="aside2">
-            <h5>24 Valoraciones
-                </br>
-                Ver comentarios
-            </h5>
-            <div class="card-title">
-                <p>9.8</p>
-            </div>         
-
+<body class="body-flex">
+    <div class="container-flex">
+        <main class="main-flex">
+            <aside class="aside-flex aside1-flex"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ulises-james-joyce-1549017342.jpg?crop=0.479xw:0.685xh;0.500xw,0.256xh&resize=100:*"  style="max-width:100%;width:auto;height:auto;" alt=""></aside>
+            <article class="article-flex">
+                <div class="titulo-flex">
+                    <h1 class="h1-flex">Centro de fisioterapia Guzmán Fernández</h1>
+                    <h3 class="h3-flex">fisioterapia General</h3>
+                </div>                
+                <div class="div-flex div1-flex">Reservar Cita</div>
+                <div class="div-flex div2-flex">Pedir Presupuesto</div>
+            </article>
+            <aside class="aside-flex aside2-flex"><p>Aside 2</p></aside>
+        </main>
+    </div>    
 </body>
-
 </html>

@@ -1,0 +1,1 @@
+También cambia el tamaño de la pantalla si es inferior al número de pixeles

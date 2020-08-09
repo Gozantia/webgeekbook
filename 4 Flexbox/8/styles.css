@@ -1,4 +1,4 @@
-html {
+body {
     margin: 0;
     padding: 0;
     background-color: rgba(207, 207, 207, 0.699);
@@ -7,20 +7,17 @@ html {
 }
 
 #main {
-    display: inline-flex;
-    width: 96%;
-    margin: 0 1%;
-    height: 100px;
-    padding: 10px;
+    display: flex;
+    height: 83px;
     background-color: black;
     color: white;
-    justify-content: center;
-    text-align: center;
+    padding: 0 175px;
+    justify-content: space-between;
 }
 
 #main ul {
     display: inline-flex;
-    width: 100%;
+    width: 50%;
     justify-content: space-around;
     line-height:63px;
 }
@@ -35,28 +32,25 @@ header {
     display: flex;
     flex-direction:column;
     position: relative;
-    width: 93%;
+    width: 96%;
     color: #fff;
     background: #af8d8d;
     margin: 0 1%;
-    padding: 30px;
+    padding: 10px;
 }
 
 .some-page-wrapper {
-    margin: 15px;
     background-color: rgb(207, 188, 188);
-     position: relative;
-    width: 96%;
-    margin: 0 1%;
-    padding: 40px 10px;
+    position: relative;
+    width: 100%;
     min-height: 100vh;
   }
   
   .row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+    padding: 0 180px;
+    justify-content: space-between
   }
   
   .column {
@@ -64,13 +58,13 @@ header {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    padding: 37px 180px;
   }
   footer {
       background: #333;
       text-align: center;
-      width: 96%;
-      margin: 0 1%;
-      padding: 40px 10px;
+      width: 100%;
+      padding: 40px 0px;
       color: #fff;
   }
   

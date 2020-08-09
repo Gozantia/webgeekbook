@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(207, 207, 207, 0.699);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    color: rgb(32, 26, 26)(77, 63, 63);
+    font-family:26px;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+#main h1 {
+  padding: 11px 0 0 180px;
+}
+#main {
+    display: flex;
+    height: 83px;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#main ul {
+    display: inline-flex;
+    width: 40%;
+    justify-content: space-around;
+    line-height:63px;
+    padding-right: 153px;
+}
+main {
+    position: relative;
+}
+li {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    width: 96%;
+    color: #fff;
+    background: #af8d8d;
+    margin: 0 1%;
+    padding: 10px;
+}
+
+.some-page-wrapper {
+    background-color: rgb(207, 188, 188);
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    padding: 0 180px;
+    justify-content: space-between
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 37px 180px;
+  }
+  footer {
+      background: #333;
+      text-align: center;
+      width: 100%;
+      padding: 40px 0px;
+      color: #fff;
+  }
+
+.modal-contenido {
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 7px 50px;
+    height: 235px;
+    position: relative;
+    top: 178px;
+    left: 369px;
+}
+.modal-contenido h1 {
+  text-align: center;
+}
+
+.modal-contenido a {position: relative;
+float: right;
+text-decoration:none;
+margin: 10px;
+font-size: larger;
+}
+
+
+.modal {
+    background-color: rgb(41 40 40 / 79%);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#miModal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+button {
+    background: white;
+    font-family: tahoma;
+    font-size: 19px;
+    padding: 15px 38px;
+    width: 39%;
+    margin: 0 20px;
+}
+button.Submit {
+    background: rgb(68, 66, 66);
+    color: #fff;
+
+}

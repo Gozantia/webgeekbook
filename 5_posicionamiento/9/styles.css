@@ -1,0 +1,37 @@
+* {
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(211, 169, 117);
+}
+
+
+body {
+    border: solid 8px;
+}
+
+.contenedor {
+    position: relative;
+    left: 300px;
+    margin-top: 106px;
+    max-width: 950px;
+}  
+
+.contenedor .autor {
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.contenedor .titular {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.contenedor .parrafos {
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+.contenedor .enlace {
+    padding: 8px 16px;
+    margin-left:-16px;
+}
