@@ -1,0 +1,30 @@
+
+  body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  .container-fluid{
+    height: 600px;
+    font-size: 2rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header {
+    background-color: #fec1cc;
+  }
+  
+  .menu {
+    background-color: #4a0e80;
+  }
+  
+  .content {
+    background-color:#cb5c5e;
+  }
+  
+  .footer {
+    background-color: #aed8e5;
+  }

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formularios</title>
+  </head>
+
+  <body>
+    <form action="" id="form-container">
+      <fieldset>
+        <label for="name">
+          Nombre
+          <div id="block">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Nombre"
+              required
+            />
+            <input
+              type="text"
+              id="surname"
+              name="name"
+              placeholder="Apellidos"
+              required
+            />
+          </div>
+        </label>
+        <label for="email">
+          Nombre de usuario
+          <input
+            type="email"
+            name="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            id="email"
+            placeholder="@gmail.com"
+            required
+          />
+        </label>
+        <label for="password">
+          Contraseña
+          <input type="password" name="password" id="password" required />
+        </label>
+        <label for="confirmpassword">
+          Confirmar contraseña
+          <input
+            type="password"
+            name="confirmpassword"
+            id="confirmpassword"
+            required
+          />
+        </label>
+        <label for="">Fecha de nacimiento</label>
+        <label for="birthday" class="date">
+            Día:<input type="number" name="day" id="day" required />
+            Mes: <input type="number" name="month" id="month" required />
+            Año: <input type="number" name="year" id="year" required />
+        </label>
+        <label for="gender"
+          >Género
+          <select name="gender" id="gender">
+            <option value="">Selecciona tu genero</option>
+            <option value="female">Mujer</option>
+            <option value="male">Hombre</option>
+          </select>
+        </label>
+        <label for="phone"
+          >Celular
+          <input
+            type="number"
+            name="phone"
+            id="phone"
+            pattern="[0-9]{5,10}"
+            required
+          />
+        </label>
+        <label for="location"
+          >Ubicación
+          <input type="text" name="location" id="location" placeholder="España"
+        /></label>
+
+        <button type="submit" class="btn">Siguiente paso</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

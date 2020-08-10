@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.peopletopeople.com/wp-content/uploads/2019/11/People-to-People-International-Student-Travel-Europe--2880x1600.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .title {
+    margin: 0;
+    position: absolute;
+    font-size: 5vw;
+    color: white;
+    left: 40%;
+    top: 31%;
+    animation: move 1s normal;
+  }
+  
+  @-webkit-keyframes move {
+    from {
+      opacity: 0;
+      top: 0%;
+    }
+    to {
+    }
+  }
+  
+  @keyframes move {
+    from {
+      opacity: 0;
+      top: 0%;
+    }
+    to {
+    }
+  }
